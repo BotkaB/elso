@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Kartya from './Kartya';
 
 function App() {
+  
+  const ember={
+    nev:"Jenőőőőőőő",
+    kor: 35
+}
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      Elso App
       </header>
+      <article>
+        <p>
+         
+        <Kartya obj={ember} />
+        
+
+        </p>
+      </article>
+      <footer>Botka Bianka</footer>
     </div>
   );
 }
