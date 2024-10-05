@@ -24,10 +24,14 @@
   color: #61dafb;
 }
 
-.footer{
+footer{
   background-color: rgb(175, 119, 51);
 }
 
+article{
+  display: grid;
+  grid-template-columns: repeat(3,1fr)
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

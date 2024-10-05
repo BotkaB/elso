@@ -1,25 +1,24 @@
 
 import './App.css';
-import Kartya from './Kartya';
+
+import { lista } from './adatlista';
+import Kartyak from './components/kartyak';
 
 function App() {
-  
-  const ember={
-    nev:"Jenőőőőőőő",
-    kor: 35
-}
+
+
   return (
     <div className="App">
       <header className="App-header">
-      Elso App
+        Elso App
       </header>
       <article>
-        <p>
-         
-        <Kartya obj={ember} />
-        
+       
 
-        </p>
+          <Kartyak lista={lista} />
+
+
+      
       </article>
       <footer>Botka Bianka</footer>
     </div>
